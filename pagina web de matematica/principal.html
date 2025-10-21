@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Principal</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+        crossorigin="anonymous">
+  <style>
+    /* Centrar y espaciar los botones verticales */
+    .botones-verticales {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 40px;
+      gap: 15px;
+    }
+
+    /* Fijar barra inferior */
+    footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <!-- Barra superior -->
+  <nav class="navbar bg-warning">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+      <span class="navbar-text fw-bold">Sitio Web de Matemáticas</span>
+      <a href="acerca de matematticas.html" class="btn btn-outline-dark btn-sm">
+        Acerca de este sitio web
+      </a>
+    </div>
+  </nav>
+
+  <!-- Botones verticales -->
+  <div class="botones-verticales">
+    <a href="proyectos.html" class="btn btn-warning w-50">Proyectos</a>
+    <a href="docentes.html" class="btn btn-warning w-50">Docentes</a>
+    <a href="Horarios y tutorias.html" class="btn btn-warning w-50">Horarios o tutorías</a>
+    <a href="datos de interes.html" class="btn btn-warning w-50">Datos de interés</a>
+  </div>
+
+  <!-- Barra inferior -->
+  <footer>
+    <nav class="navbar bg-warning">
+      <div class="container-fluid justify-content-center">
+        <span class="navbar-text fw-semibold text-center">
+          Escuela proa cede capitalo norte.
+                 creadores del citio:Nicolas canovas y felix montalvan.
+        </span>
+      </div>
+    </nav>
+  </footer>
+
+  <!-- Script de Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+          integrity="sha384-kKk9fC+Z0A1hkXbRBTwbxI6XfK1q5d2zHgp3Zokz9v5P/3yueMGZ5hJQ4qlj3N4w" 
+          crossorigin="anonymous"></script>
+</body>
+</html>
+
